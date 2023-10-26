@@ -1,5 +1,5 @@
 <?php
-$conn_string = "host=187.50.93.146 port=5441 dbname=Plano_Amhe user=WARELINE password=BENEF";
+$conn_string = "host=187.50.93.146 port= dbname= user= password=";
 
 $dbcon = pg_connect($conn_string);
 
