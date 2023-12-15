@@ -1,9 +1,9 @@
 <?php
-$host = "187.50.93.146";
-$port = "5441";
-$dbname = "Plano_Amhe";
-$user = "WARELINE";
-$password = "BENEF";
+$host = "";
+$port = "";
+$dbname = "";
+$user = "";
+$password = "";
 
 try {
     $dbcon = new PDO("pgsql:host=$host;port=$port;dbname=$dbname;user=$user;password=$password");
